@@ -21,7 +21,7 @@ resource "docker_container" "nginx_container" {
   name  = "nginx-terraform-demo"       
   ports {
     internal = 80                      
-    external = 8000                    
+    external = 8000             #check port 8000 for checking nginx server       
   }
   
 }
