@@ -1,13 +1,13 @@
-# #Infrastructure as Code (IaC) with Terraform
+# Infrastructure as Code (IaC) with Terraform
 
-### #Overview
+### Overview
 This repository contains the implementation of Infrastructure as Code (IaC) using Terraform to provision a local Docker container, aligning with modern DevOps practices.
 
-### #Tools
+### Tools
 - **Terraform**: An open-source IaC tool used to define and provision infrastructure.
 - **Docker**: A platform for developing, shipping, and running applications inside containers.
 
-### #Deliverables
+### Deliverables
 - **`main.tf`**: The Terraform configuration file defining the infrastructure setup.
 - **Execution Logs**:
   - `init.log`: Output from the `terraform init` command.
@@ -16,7 +16,7 @@ This repository contains the implementation of Infrastructure as Code (IaC) usin
   - `state.log`: Output from the `terraform state list` command.
   - `destroy.log`: Output from the `terraform destroy` command.
 
-### #ImplementationSteps
+### ImplementationSteps
 1. Created a project directory (`terraform-docker-task`) and added `main.tf` with Terraform configuration for an NGINX container.
 2. Executed Terraform commands:
    - `terraform init` to initialize the environment.
@@ -27,7 +27,7 @@ This repository contains the implementation of Infrastructure as Code (IaC) usin
 3. Captured outputs in respective log files.
 4. Set up this GitHub repository for submission.
 
-### #VerificationSteps
+### VerificationSteps
 - Clone the repository: `git clone <repository-url>`.
 - Navigate to the directory: `cd terraform-docker-task`.
 - Ensure Docker and Terraform are installed and Docker is running.
@@ -49,6 +49,6 @@ This repository contains the implementation of Infrastructure as Code (IaC) usin
 ![NGINX Server Screenshot 3](./Screenshot3.png)
 
 
-### #Acknowledgments
+### Acknowledgments
 Completed as part of the Elevate & Labs DevOps Internship, supported by the Ministry of Electronics and Information Technology, Government of India.
 
